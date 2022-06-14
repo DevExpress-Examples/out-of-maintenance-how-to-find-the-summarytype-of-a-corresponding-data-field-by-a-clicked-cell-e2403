@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true"  CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v21.2, Version=21.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v21.2, Version=21.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
 	Namespace="DevExpress.Web.ASPxPivotGrid" TagPrefix="dxwpg" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -36,17 +36,17 @@
                         <dxwpg:DataSourceColumnBinding ColumnName="ProductAmount" />
                     </DataBindingSerializable>
                 </dxwpg:PivotGridField>
-                <dxwpg:PivotGridField ID="fieldProductAmount5" Area="DataArea" AreaIndex="2" Caption="Min" SummaryType="Min" Name="fieldProductAmount5">
+                <dxwpg:PivotGridField ID="fieldProductAmount5" Area="DataArea" AreaIndex="2" Caption="Min" SummaryType="Min">
                     <DataBindingSerializable>
                         <dxwpg:DataSourceColumnBinding ColumnName="ProductAmount" />
                     </DataBindingSerializable>
                 </dxwpg:PivotGridField>
-                <dxwpg:PivotGridField ID="fieldProductAmount2" Area="DataArea" AreaIndex="3" Caption="Max" SummaryType="Max" Name="fieldProductAmount2">
+                <dxwpg:PivotGridField ID="fieldProductAmount2" Area="DataArea" AreaIndex="3" Caption="Max" SummaryType="Max">
                     <DataBindingSerializable>
                         <dxwpg:DataSourceColumnBinding ColumnName="ProductAmount" />
                     </DataBindingSerializable>
                 </dxwpg:PivotGridField>
-                <dxwpg:PivotGridField ID="fieldProductAmount3" Area="DataArea" AreaIndex="4" Caption="Average" SummaryType="Average" Name="fieldProductAmount3">
+                <dxwpg:PivotGridField ID="fieldProductAmount3" Area="DataArea" AreaIndex="4" Caption="Average" SummaryType="Average">
                     <DataBindingSerializable>
                         <dxwpg:DataSourceColumnBinding ColumnName="ProductAmount" />
                     </DataBindingSerializable>
